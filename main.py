@@ -15,7 +15,7 @@ if __name__ == '__main__':
     print("main lanuched")
     ans = task1.add.delay(2, 4)
     print("result for add is {}".format(ans))
-    ans2 = task2.multiply.delay(2,4)
-    print("result for multy is {}".format(ans2))
-    #print_hi('PyCharm')
+    # ans2 = task2.multiply.delay(2,4)
+    # print("result for multy is {}".format(ans2))
+    print_hi('PyCharm')
 
