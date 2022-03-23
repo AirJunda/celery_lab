@@ -18,9 +18,12 @@ cd imooc
 ```
 
 ## django项目中使用 celery worker
+```shell
 cd imooc
 celery -A course worker -l INFO
 celery -A course beat -l INFO
+```
+
 
 ## flower监控的使用
 ```shell
